@@ -1,71 +1,63 @@
-# code-gravity README
+# Code Gravity 🌌
 
-This is the README for your extension "code-gravity". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Code Gravity transforms your static workspace directory into an interactive, multi-dimensional HTML5 celestial physics simulation. By analyzing code volume, nesting depth, and architecture distributions, it translates your project into a living solar system where files dynamically orbit based on real-world gravity formulas. 
 
 ---
 
-## Following extension guidelines
+## 🚀 Core Features
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+* **Automated Project Scanning Engine:** Automatically scans and maps your active directory workspace trees into graphical nodes on a dedicated interactive panel canvas layout.
+* **Astrodynamic Heatmapping:** System nodes dynamically change scale and color hues (from deep space neon blue to hot incandescent amber) depending on file size metrics and structural complexity parameters.
+* **Interactive HUD & Telemetry Data:** Hovering over any planet freezes its tracking vector and generates an overlay telemetry view highlighting raw paths, precise Lines of Code (LOC), and relative orbital masses.
+* **Bidirectional Click-to-Open Bridge:** Click any orbiting node or monolithic star cluster to instantly focus and open that specific document text layer right alongside the visualization pane inside your editor column view (`ViewColumn.One`).
+* **Global Accessibility Bindings:** Fire up the universe instantly using high-speed custom macro controls from anywhere inside your active workflow frame.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+---
 
-## Working with Markdown
+## 🛠️ Global Command & Shortcut Map
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Launch the visualization environment using the standard Command Palette utility options or via the built-in keyboard macro mappings:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+* **Windows / Linux:** `Ctrl + Shift + 0`
+* **macOS:** `Cmd + Shift + 0`
+* **Command Palette Hook:** `Code Gravity: Visualize Codebase`
 
-## For more information
+---
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 📐 The Physics Framework (How it Works)
 
-**Enjoy!**
+The client rendering canvas runs a precise frame-by-frame structural adaptation of classical Newtonian orbital mechanics. The vector force ($F$) keeping your files in balanced geometric trajectories is calculated dynamically via:
+
+$$F = G \times \frac{m_1 \times m_2}{r^2}$$
+
+* **$G$** is a scaled gravitational constant fine-tuned for visual performance on display grids.
+* **$m_1$** is the structural mass metric of the target codebase anchor.
+* **$m_2$** represents the density weight of the orbiting component file.
+* **$r$** indicates the direct linear space distance offset separating the coordinate points.
+
+To provide an immersive, fluid visual state, a continuous breathing modification scalar shifts anchor node diameters via harmonic tracking formulas:
+
+$$R_{pulse} = R_{base} + A \times \sin(\psi)$$
+
+*(Where $\psi$ measures the current runtime tracking frames, strictly wrapped inside safety boundary checks to guarantee zero null animation crashes before asynchronous background file structures complete initialization loops).*
+
+---
+
+## 📋 Recommended package.json Alignment
+
+Ensure your top-level extension configuration file contains matching attributes to enable flawless publishing verification checks:
+
+```json
+{
+  "name": "code-gravity",
+  "displayName": "Code Gravity",
+  "version": "0.1.0",
+  "publisher": "arxo",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Visualization",
+    "Other"
+  ]
+}
