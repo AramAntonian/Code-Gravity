@@ -3,7 +3,7 @@
   "displayName": "Code Gravity",
   "description": "Visualizes codebase complexity as an orbiting celestial system.",
   "version": "0.1.0",
-  "publisher": "aramantonian",
+  "publisher": "arxolabs",
   "engines": { "vscode": "^1.84.0" },
   "icon": "images/icon.png",
   "repository": {
