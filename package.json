@@ -1,16 +1,22 @@
 {
-   "name": "code-gravity",
+  "name": "code-gravity",
   "displayName": "Code Gravity",
   "description": "Visualizes codebase complexity as an orbiting celestial system.",
   "version": "0.1.0",
+  "license": "MIT",
   "publisher": "arxolabs",
-  "engines": { "vscode": "^1.125.0" },
+  "engines": {
+    "vscode": "^1.125.0"
+  },
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/your-username/code-gravity.git"
   },
-  "categories": ["Visualization", "Other"],
+  "categories": [
+    "Visualization",
+    "Other"
+  ],
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
